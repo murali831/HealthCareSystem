@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: demo.MavenDemo.HospitalTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.078 s <<< FAILURE! - in demo.MavenDemo.HospitalTests
+testcase1  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.NullPointerException
+	at demo.MavenDemo.HospitalTests.testcase1(HospitalTests.java:37)
+
+testcase2  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at demo.MavenDemo.HospitalTests.testcase2(HospitalTests.java:44)
+
+testcase3  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at demo.MavenDemo.HospitalTests.testcase3(HospitalTests.java:51)
+
+testcase4  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.cg.exception.DiagnosticException> but was: <java.lang.NullPointerException>
+	at demo.MavenDemo.HospitalTests.testcase4(HospitalTests.java:59)
+Caused by: java.lang.NullPointerException
+	at demo.MavenDemo.HospitalTests.lambda$testcase4$0(HospitalTests.java:59)
+	at demo.MavenDemo.HospitalTests.testcase4(HospitalTests.java:59)
+
+testcase5  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.cg.exception.DiagnosticException> but was: <java.lang.NullPointerException>
+	at demo.MavenDemo.HospitalTests.testcase5(HospitalTests.java:67)
+Caused by: java.lang.NullPointerException
+	at demo.MavenDemo.HospitalTests.lambda$testcase5$1(HospitalTests.java:67)
+	at demo.MavenDemo.HospitalTests.testcase5(HospitalTests.java:67)
+
