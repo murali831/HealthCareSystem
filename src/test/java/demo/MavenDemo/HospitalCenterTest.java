@@ -11,7 +11,7 @@ import com.cg.exception.ValidateException;
 import com.cg.service.HealthCareService;
 import com.cg.service.HealthCareServiceImpl;
 
-public class HospitalCenters {
+public class HospitalCenterTest {
 	@Test
 	@DisplayName("Test case 1")
 	public void testcase1() throws ValidateException {

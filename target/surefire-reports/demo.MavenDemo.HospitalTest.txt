@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: demo.MavenDemo.HospitalTests
+Test set: demo.MavenDemo.HospitalTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in demo.MavenDemo.HospitalTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in demo.MavenDemo.HospitalTest

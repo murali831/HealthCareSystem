@@ -1,6 +1,4 @@
 package com.cg.client;
-import java.util.Map;
-
 import com.cg.entity.DiagnosticCenter;
 import com.cg.exception.DiagnosticException;
 import com.cg.exception.ValidateException;

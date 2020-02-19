@@ -16,7 +16,7 @@ import com.cg.service.HealthCareService;
 import com.cg.service.HealthCareServiceImpl;
 
 @TestInstance(Lifecycle.PER_CLASS)
-public class HospitalTests {
+public class HospitalTest {
 	static HealthCareService ser;
 
 	@BeforeAll
@@ -30,9 +30,7 @@ public class HospitalTests {
 		} catch (ValidateException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 	@Test
 	@DisplayName("Test case 1")
 	public void testcase1() throws ValidateException, DiagnosticException {
